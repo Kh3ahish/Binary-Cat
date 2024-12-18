@@ -1,117 +1,82 @@
 # Binary Cat
 
-Binary Cat is an interactive and user-friendly web application designed to simplify conversions between binary, text, and numeric systems. It caters to students, educators, and developers by providing real-time conversion tools and an intuitive interface.
+Binary Cat is a web application that allows users to convert numbers between different number systems (binary, decimal, octal, and hexadecimal) and perform text-to-binary and binary-to-text conversions.
 
----
+![Binary Cat Logo](https://i.ibb.co/HpzrGCs/Blue-Gradient-Header-Banner-1.png)
 
 ## Features
 
-- **Real-Time Conversions**: Convert between binary, decimal, octal, hexadecimal, and text.
-- **Responsive Design**: Optimized for desktop and mobile devices.
-- **Intuitive Interface**: Easy-to-navigate UI for users of all skill levels.
-- **Educational Support**: Ideal for teaching binary systems and conversions.
-- **Error Handling**: Provides feedback for invalid inputs.
-
----
+- Convert numbers between binary, decimal, octal, and hexadecimal systems
+- Convert text to binary
+- Convert binary to text
+- Responsive design for mobile and desktop
+- Copy results to clipboard
+- Input validation and error handling
 
 ## Technologies Used
 
-- **Frontend**:
-  - HTML5
-  - CSS3 (Tailwind CSS)
-  - JavaScript (ES6+)
-  - Framer Motion (for UI animations)
-- **Backend**:
-  - Node.js (conversion logic)
-- **Hosting**: Scalable and reliable hosting for seamless access.
+- React
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
 
----
+## Getting Started
 
-## Prerequisites
+### Prerequisites
 
-Before you begin, ensure you have the following installed:
+- Node.js (v14 or later)
+- npm or yarn
 
-- Node.js (version 14 or higher)
-- npm (version 6 or higher)
-
----
-
-## Installation
+### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://kzmk6fnoubtdi4avnktt.lite.vusercontent.net/
+   \\\`
+   git clone https://github.com/yourusername/binary-cat.git
    cd binary-cat
-   ```
+   \\\`
 
 2. Install dependencies:
-   ```bash
+   \\\`
    npm install
-   ```
+   # or
+   yarn install
+   \\\`
 
-3. Start the development server:
-   ```bash
+3. Run the development server:
+   \\\`
    npm run dev
-   ```
+   # or
+   yarn dev
+   \\\`
 
-4. Open your browser and navigate to `http://localhost:3000`.
-
----
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
 ## Usage
 
-1. **Select Conversion Mode**: Choose between Binary, Decimal, Octal, Hexadecimal, or Text conversion.
-2. **Input Data**: Enter the value to convert.
-3. **View Results**: The converted values appear instantly.
-4. **Reset or Copy Results**: Use the reset button to clear inputs or copy values to the clipboard.
+1. Select the conversion type from the tabs at the top of the application.
+2. Enter the number or text you want to convert in the input field.
+3. Click the "Convert" button to see the results.
+4. Use the "Copy" button next to each result to copy it to your clipboard.
+5. Click the "Reset" button to clear the input and results.
 
----
+## Contributing
 
-## Deployment
-
-To deploy Binary Cat to a production environment:
-
-1. Build the project:
-   ```bash
-   npm run build
-   ```
-
-2. Deploy the build files to your hosting service.
-
----
-
-## Contribution
-
-We welcome contributions to Binary Cat! Follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`feature/your-feature-name`).
-3. Make your changes and commit them.
-4. Push the changes to your fork.
-5. Submit a pull request.
-
----
-
-## Security Considerations
-
-- Ensure sensitive information is not hardcoded in the project.
-- Use HTTPS to secure data transmission in production environments.
-- Regularly update dependencies to address vulnerabilities.
-
----
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-Binary Cat is released under the [MIT License](LICENSE).
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
+## Acknowledgements
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Lucide Icons](https://lucide.dev/)
 
 ## Contact
 
-For queries, feedback, or support, feel free to connect:
-
-- **Khwahish Kushwah**: [LinkedIn](http://www.linkedin.com/in/khwahishkushwah)
-
----
+For any questions or feedback, please contact Khwahish Kushwah (mailto:khwahish4@icloud.com).
 
 Let me know if you’d like further edits or additions! 🚀
